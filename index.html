@@ -15,5 +15,17 @@
             <a href="" class="enlace">Mas informacion...</a>
         </div>
     </article>
+    <footer style="padding: 45px; background-color: #000; color: #fff;">
+        <div class="display: flex; justify-content: center; align-items: center">
+            <time id="hourNow">
+            </time>
+        </div>
+    </footer>
+    <script>
+        const item = document.getElementById("hourNow");
+        const hour = new Date;
+        item.innerText = "Copyright" + hour.getFullYear() + "Web Developmen";
+    </script>
+    
 </body>
 </html>
